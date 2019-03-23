@@ -1,0 +1,51 @@
+/*body{
+    background-image:
+    url("../images/fruitsveggies.jpg");
+    background-repeat: no-repeat;
+}*/
+
+.bg-image {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: -1;
+    background-image:
+    url("../images/fruitsveggies.jpg");
+    background-repeat: no-repeat;
+}
+h1 {
+    background-color: rgba(255,255,255, 0.3);
+    border-radius: 10px;
+    padding: 20px;
+}
+h2{
+    color: #ccddff;
+}
+
+#correct-ans, #incorrect-ans{
+    margin-top: 10px;
+    color: #ccddff;
+    font-size: 1.5em;
+}
+
+form {
+    background-color:rgba(255,255,255, 0.3);
+    padding: 20px;
+    display: none;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    /*overflow: scroll;
+    max-height: 600px;*/
+}
+
+#startbutton, #donebutton {
+    border-radius: 10px;
+    background-color:rgba(255,255,255, 0.5);
+}
+#time-rem {
+    display: none;
+}
+
+ul {
+    list-style: none;
+}

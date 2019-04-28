@@ -8,12 +8,19 @@
     background-repeat: no-repeat;
 }
 h1 {
-    background-color: rgba(255,255,255, 0.3);
+    background-color: rgba(255,255,255, 0.5);
+    color: #03060a;
     border-radius: 10px;
     padding: 20px;
 }
 h2{
     color: #ccddff;
+}
+h4 {
+    color: #03060a;
+}
+#title-box {
+    text-align: center;
 }
 
 #correct-ans, #incorrect-ans{
@@ -23,7 +30,7 @@ h2{
 }
 
 form {
-    background-color:rgba(255,255,255, 0.3);
+    background-color:rgba(255,255,255, 0.5);
     padding: 20px;
     display: none;
     border-radius: 10px;
@@ -33,6 +40,7 @@ form {
 #startbutton, #donebutton {
     border-radius: 10px;
     background-color:rgba(255,255,255, 0.5);
+    color: #04090f;
 }
 #time-rem {
     display: none;
@@ -40,4 +48,5 @@ form {
 
 ul {
     list-style: none;
+    color: #04090f;
 }

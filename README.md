@@ -10,3 +10,5 @@
 
 * Don't let the player pick more than one answer per question.
 * Don't forget to include a countdown timer.
+
+![Basic](assets/images/1-basic.jpg)
